@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "BKB",
+        "#B#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:arrow"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "K": {
+            "item": "minecraft:bow"
+        }
+    },
+    "result": {
+        "item": "minecraft:skeleton_skull",
+        "count": 1
+    }
+}

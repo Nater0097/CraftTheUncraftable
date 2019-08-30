@@ -1,0 +1,33 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[28,)" #mandatory (26 is current forge version)
+
+[[mods]] #mandatory
+
+modId="ctu" #mandatory
+
+version="1.0.0" #mandatory
+
+displayName="CraftTheUncraftable" #mandatory
+
+authors="Thermionic" #optional
+
+description='''
+
+    This is a mod for the MMPlive server, this mod adds crafting recipes for items and blocks that don't have them in vanilla Minecraft.
+
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.ctu]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[28,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"

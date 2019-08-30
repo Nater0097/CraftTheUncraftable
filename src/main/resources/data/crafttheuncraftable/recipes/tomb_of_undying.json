@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "N",
+        "D"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sandstone"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:totem_of_undying",
+        "count": 1
+    }
+}
